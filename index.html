@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+<script>
+    let x = Array();
+    let y = Number(prompt("Nhap vao so phan tu trong mang"));
+    x.length = y;
+    for (let i = 0; i < x.length; i++) {
+        x[i] = Number(prompt("Nhap vao phan tu thu " + i));
+    }
+    let z = Number(prompt("Ban muon xem lai phan tu nao trong mang"));
+        for (i = 0; i < x.length; i++)
+            if (z == x[i]) alert("Phan tu " + x[i] + " nam tai vi tri thu " + i + " trong mang");
+
+</script>
+</body>
+</html>
